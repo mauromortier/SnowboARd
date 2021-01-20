@@ -1,0 +1,167 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 16494,
+            "type": "VEC3",
+            "max": [
+                20.176799774169923,
+                82.33000183105469,
+                24.976699829101564
+            ],
+            "min": [
+                -15.830900192260743,
+                -82.57039642333985,
+                0.22669999301433564
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 16494,
+            "type": "VEC3",
+            "max": [
+                0.9999961853027344,
+                0.9999991655349731,
+                1.0
+            ],
+            "min": [
+                -0.9999958276748657,
+                -0.9999988079071045,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 16494,
+            "type": "VEC3",
+            "max": [
+                0.9961000084877014,
+                0.994700014591217,
+                0.06199999898672104
+            ],
+            "min": [
+                0.005499999970197678,
+                0.00989997386932373,
+                -0.0778999999165535
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 87456,
+            "type": "SCALAR",
+            "max": [
+                16493
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 943608,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 197928,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 197928,
+            "byteLength": 197928,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 395856,
+            "byteLength": 197928,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 593784,
+            "byteLength": 349824,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "12325_Snowboard",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "12325_Snowboard_sg",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "input.obj",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "12325_Snowboard_sg",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
